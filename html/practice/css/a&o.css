@@ -1,0 +1,27 @@
+#alpha{
+    height: 70px;
+    width: 500px;
+    border: 5px;
+    background-color: aqua;
+    color: black;
+    border-color: rgba(255, 0, 0, 0.811);
+    border-style: double;
+    
+    
+}
+#alpha h1{
+    text-align: center;
+}
+#opacity{
+    background-color: rgba(137, 43, 226, 0.571);
+    height:140px;
+    width:500px;
+    border: 10px;
+    border-style:solid;
+    margin-top: 20px;
+}
+#opacity button{
+    background-color:orange;
+    color: black;
+    opacity:0.88;
+}

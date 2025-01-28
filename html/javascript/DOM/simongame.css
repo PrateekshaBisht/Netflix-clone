@@ -1,0 +1,33 @@
+.box{
+    height:140px;
+    width:140px;
+    border-radius: 20px;
+    border:7px solid black;
+    margin:1.2rem;
+}
+
+.box-container{
+    display:flex;
+    justify-content: center;
+}
+body{
+    text-align: center;
+}
+.red{
+    background: rgb(237, 68, 158);
+}
+.teal{
+    background: rgb(61, 147, 147);
+}
+.orange{
+    background: rgba(243, 143, 49, 0.982);
+}
+.blue{
+    background: rgb(99, 165, 240);
+}
+.flash{
+    background: white;
+}
+.userflash{
+    background: green;
+}

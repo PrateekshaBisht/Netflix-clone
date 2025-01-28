@@ -1,0 +1,13 @@
+div{
+    height: 400px;
+    width: 700px;
+    background-color: coral;
+    margin: 0px auto;
+    background-image: url(bg.jpg);
+    background-size :contain ;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: pink;
+}

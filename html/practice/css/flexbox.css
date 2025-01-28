@@ -1,0 +1,46 @@
+#Container{
+    background-color: aqua;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+    border:2px solid black;
+    display: flex;
+    flex-direction:column;
+    /* justify-content:space-evenly; */
+    flex-wrap: wrap;
+    align-content:start;
+    
+}
+h1{
+    text-align: center;
+}
+#voilate{
+    background-color: violet;
+}
+#indigo{
+    background-color: indigo;
+}
+#blue{
+    background-color: blue;
+
+}
+#Green{
+    background-color: green;
+}
+#Yellow{
+    background-color:yellow;;
+}
+#Orange{
+    background-color: orange;
+    flex-basis: 190px;
+}
+#Red{
+    background-color: red;
+    flex-basis:200px;
+}
+#Container div{
+    height: 100px;
+    width: 100px;
+    font-size:large;
+    text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: aquamarine;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+ /* div:nth-of-type(2n){
+    background-color: burlywood;
+ }
+ div:nth-of-type(3n){
+    background-color: cadetblue;
+ } 
+ #one{
+    margin-top: 70px;
+     transform: rotate(45deg); 
+ /* } */
+ #two{
+    transform:scale(1,0.5);
+
+    /* Alternate way :) */
+
+    transform:scalex(1);
+    transform:scaley(0.5); }
+ 
+
+ 

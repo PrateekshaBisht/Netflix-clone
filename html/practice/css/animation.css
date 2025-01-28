@@ -1,0 +1,34 @@
+.Box{
+    width: 250px;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    animation-name:coloranimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay:0s;
+    animation-iteration-count: 5;
+    animation-direction: noraml;
+}
+
+@keyframes boxanimation{
+    from{
+        font-size: 20px;
+        }
+    to{
+        font-size: 40px;
+      }
+}
+
+@keyframes coloranimation{
+    from{
+        background-color: cornflowerblue;
+        font-size: 20px;
+        font-family:'Times New Roman';
+    }
+    to{
+        background-color: pink;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+}

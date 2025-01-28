@@ -1,0 +1,41 @@
+.card{
+    height: 450px;
+    width:379px;
+    border:2px solid black;
+    display:inline-block;
+    margin-top:20px;
+    border-radius: 20px;
+    padding:10px;
+    margin-left:100px;
+}
+img{
+    width:90%;
+    border-radius:30px;
+    padding: 10px 10px 10px 20px;
+}
+.card1{
+    height: 450px;
+    width:379px;
+    border:2px solid black;
+    display:inline-block;
+    margin-top:20px;
+    border-radius: 20px;
+    padding:10px;
+    margin-left:100px;
+}
+h2{
+    color:rgb(218, 165, 32);
+}
+span{
+    color:rgba(128, 128, 0, 0.984);
+}
+
+ .pets{
+      display:flex;
+      justify-content:evenly;
+ }
+ @media(min-width:374px){
+    .pets{
+        flex-wrap:wrap;
+    }
+ }

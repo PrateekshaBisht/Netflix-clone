@@ -1,0 +1,80 @@
+*{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a,
+h3{
+    color:blueviolet;
+}
+li{
+    color: black;
+}
+#login{
+    background-color: white;
+    color:black;
+}
+#signup{
+    background-color:white;
+}
+#myid{
+    color:green;
+
+}
+.Bob a{
+    color:brown;
+}
+.upvote{
+    background-color: chartreuse;
+}
+.upvote + button{
+    background-color: coral;
+    color: black;
+}
+p+h3{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+div p{
+     color: black;
+}
+div >p{
+    color: red;
+}
+span>a{
+    background-color: cadetblue;
+}
+input[type="text"]{
+    background-color: black;
+    color: white;
+}
+input[type="password"]{
+    background-color: grey;
+    color:black;
+}
+button:hover{
+    background-color:rgb(108, 69, 128);
+    text-transform: uppercase;
+    color:black
+}
+p:active{
+     text-align: right;
+}
+input[type="radio"]:checked+label{
+    color :blueviolet;
+    text-transform: uppercase;
+}
+div:nth-of-type(1){
+    background-color:olive;
+}
+.Bob::first-letter{
+    color: blue;
+}
+div>p::first-line{
+    color:darkblue;
+}
+div p::selection{
+    color:orange;
+}
+h3::selection{
+    color:orange;
+}

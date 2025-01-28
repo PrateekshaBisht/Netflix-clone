@@ -1,0 +1,14 @@
+.card{
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid black;
+    box-shadow: 5px 5px 2px grey;
+    margin: 15px;
+}
+img{
+    width: 100%;
+}
+.card:hover{
+      box-shadow: 6px 7px 3px brown;
+}
